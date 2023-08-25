@@ -1,5 +1,3 @@
-// bcryptjs jsonwebtoken validator nodemailer cookie-parser body-parser
-
 const mongoose = require("mongoose");
 const validator = require("validator");
 const bcrypt = require("bcryptjs");
@@ -27,7 +25,7 @@ const userSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        default: "user"
+        default: "admin"
     },
     resetPasswordToken: String,
     resetPasswordExpire: Date,
