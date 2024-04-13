@@ -26,44 +26,61 @@ const execomDetailsOptions = [
     },
     {
         execom_section: "wie",
-        section_heading: "IEEE WiE",
-        heading_color: "#981D97"
+        section_heading: "IEEE WIE",
+        heading_color: "#E178C5"
     },
     {
-        execom_section: "",
-        section_heading: "Project and Web Dev Committee",
-        heading_color: "#000000"
+        execom_section: "webDev",
+        section_heading: "Web Dev Committee",
+        heading_color: "#FF204E"
+    },
+    
+    {
+        execom_section: "project",
+        section_heading: "Project Committee",
+        heading_color: "#FFF455"
     },
     {
-        execom_section: "",
+        execom_section: "publicity",
         section_heading: "Publicity Committee",
-        heading_color: "#000000"
+        heading_color: "#E26EE5"
     },
     {
-        execom_section: "",
+        execom_section: "program",
         section_heading: "Program Committee",
-        heading_color: "#000000"
+        heading_color: "#16FF00"
     },
     {
-        execom_section: "",
+        execom_section: "editorial",
         section_heading: "Editorial Committee",
-        heading_color: "#000000"
+        heading_color: "#FF0000"
     },
     {
-        execom_section: "",
+        execom_section: "creativity",
         section_heading: "Creativity Committee",
-        heading_color: "#000000"
+        heading_color: "#A8FF3E"
     },
     {
-        execom_section: "",
+        execom_section: "design",
         section_heading: "Design Committee",
-        heading_color: "#000000"
+        heading_color: "#B643CD"
     },
     {
-        execom_section: "",
-        section_heading: "Sponsorship and Membership Development Committee",
-        heading_color: "#000000"
-    }
+        execom_section: "sponsorship",
+        section_heading: "Sponsorship Committee",
+        heading_color: "#FF7A5A"
+    },
+    {
+        execom_section: "membership",
+        section_heading: "Membership Development Committee",
+        heading_color: "#EBF400"
+    },
+    {
+        execom_section: "discipline",
+        section_heading: "Disciplinary Committee",
+        heading_color: "#F72798"
+    },
+    
 ]
 
 export default execomDetailsOptions;

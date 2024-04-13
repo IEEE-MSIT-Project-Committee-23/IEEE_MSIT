@@ -1,14 +1,71 @@
 .about_us {
-    background-image: url(../../../Assets/Bg-AboutUs.png);
+    /* background-image: url(../../../Assets/Bg-AboutUs.png); */
+
+    width: 100%;
     height: 100%;
     background-color: black;
     /* background-size: cover; */
     /* background-position: center; */
-    padding: 2rem;
-    overflow-x: hidden;
+    padding: 5rem;
     background-repeat: no-repeat;
     object-fit: cover;
+
+
 }
+
+  
+  .card-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust spacing between rows */
+  }
+  
+  .card1 {
+    cursor: pointer;
+    width: 150px;
+    height: 100px; /* Fixed height */
+    margin: 8px; 
+    background-color: black;
+    border: 2px solid #495057;
+    color: #495057;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: transform 0.5s ease; /* Add transition property for smooth rotation */
+    overflow: hidden; /* Hide overflow content */
+}
+
+  
+  .card1:hover {
+    border: 3px solid #019EC3;
+    border-color: #019EC3;
+    transform: rotate(10deg); /* Rotate the card 360 degrees when hovered */
+  }
+  
+
+  .card10 {
+    cursor: pointer;
+    width: 150px;
+    height: 100px;
+    margin: 8px; 
+    background-color: black;
+    border: 2px solid #019EC3;
+    color: #495057;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: transform 0.5s ease; /* Add transition property for smooth rotation */
+  }
+  
+  .card10:hover {
+    border: 5px solid #019EC3;
+    border-color: #019EC3;
+    transform: rotate(10deg); /* Rotate the card 360 degrees when hovered */
+  }
 
 .header_aboutUs {
     display: flex;
@@ -18,15 +75,25 @@
 
 .about_us h1 {
     color: white;
-    margin-left: 1.5rem;
     font-size: 48px;
     line-height: 72px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
 }
+
+.about_us h1:hover {
+    color: #019EC3;
+
+}
+
 
 .body_aboutUs {
     display: flex;
     justify-content: space-around;
     height: 63%;
+    
 }
 
 .footer_aboutUs {
@@ -38,10 +105,34 @@
 
 .body_aboutUs p {
     padding: 1rem;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bolder;
+    margin-left: 50px;
+    color: white;
+}
+
+.body_aboutUs img {
+    border-radius: 50%;
+}
+
+.body_aboutUsclg {
+    display: flex;
+    justify-content: space-around;
+    height: 63%;
+}
+.body_aboutUsclg p {
+    padding: 1rem;
     color: white;
     font-size: 20px;
     line-height: 30px;
     font-weight: bolder;
+    margin-left: 50px;
+}
+
+.body_aboutUsclg img {
+    border-radius: 10%;
+    border: 3px solid #019EC3;
 }
 
 img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {

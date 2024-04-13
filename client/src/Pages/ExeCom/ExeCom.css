@@ -1,5 +1,11 @@
 .app__execom {
     min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.execom_card__image-linksContainer:hover .linkIcons {
+    color: #009CA6; /* Adjusted link color on hover */
 }
 
 .app__execom-mainContainer {
@@ -14,6 +20,7 @@
 }
 
 .app__execom-headerContainer {
+    margin-top: -30px;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -25,15 +32,19 @@
 }
 
 .app__execom-header {
-    font-size: 2.25rem;
+    font-size: 2.75rem; /* Increase the font size */
     font-weight: bold;
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    color: #009CA6; /* Change the text color */
+    text-transform: uppercase; /* Convert text to uppercase */
 }
 
-.hr-header {
+/* .hr-header {
     height: 5px;
     width: 180px;
     background-color: #009CA6;
-}
+} */
 
 .app__execom-execomListContainer {
     display: flex;
@@ -63,14 +74,30 @@
     gap: 5rem;
 }
 
-.execom_card__wrapper {
-    max-width: 75%;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
+/* For laptops and larger screens */
+@media screen and (min-width: 1024px) {
+    .execom_card__wrapper {
+        max-width: 75%;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 8rem; 
+        flex-wrap: wrap;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+    .execom_card__wrapper {
+        max-width: 75%;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Change to center for mobile */
+        gap: 2rem; /* Adjust the gap value as needed */
+        flex-wrap: wrap;
+    }
 }
 
 .execom_card {
@@ -115,6 +142,57 @@
     box-shadow: 5px 5px 10px #981D97;
 }
 
+.webDev {
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #FF204E;
+}
+
+.project {
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #FFF455;
+}
+
+.publicity {
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #E26EE5;
+}
+
+.program{
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #16FF00;
+}
+
+.editorial{
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #FF0000;
+}
+
+.creativity{
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #A8FF3E;
+}
+
+.design{
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #B643CD;
+}
+
+.sponsorship{
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #FF7A5A;
+}
+
+.membership{
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #EBF400;
+}
+
+.discipline{
+    outline: 1px solid hsl(300 68% 35% / 0.2);
+    box-shadow: 5px 5px 10px #F72798;
+}
+
+
 .execom_card:hover {
     transform: scale(1.06);
     transition: transform 0.5s ease;
@@ -122,7 +200,7 @@
 
 .execom_card__image {
     width: 100%;
-    height: 350px;
+     height: 350px; 
     position: relative;
     display: flex;
     align-items: center;
@@ -154,6 +232,46 @@
     outline: 1px solid hsl(300 68% 35% / 0.3);
 }
 
+.execom_card__image-webDev {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-project {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-publicity {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-program {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-editorial {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-creativity {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-design {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-sponsorship {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-membership {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
+.execom_card__image-discipline {
+    outline: 1px solid hsl(300 68% 35% / 0.3);
+}
+
 .execom_card__image-linksContainer {
     position: absolute;
     width: 100%;
@@ -178,6 +296,7 @@
     font-size: 2rem;
     color: #FFFFFF;
     cursor: pointer;
+    color: white;
 }
 
 .execom_card__image-linksContainer:hover {
@@ -193,12 +312,14 @@
 
 .execom_card__description {
     width: 100%;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     padding-block: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
     transition: background-color 0.5s ease;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    color: white;
 }
 
 .execom_card__description-advisoryBoard {
@@ -233,6 +354,46 @@
 
 .execom_card__description-name-wie {
     color:#981D97;
+}
+
+.execom_card__description-name-webDev {
+    color:#FF204E;
+}
+
+.execom_card__description-name-project {
+    color:#FFF455;
+}
+
+.execom_card__description-name-publicity {
+    color:#E26EE5;
+}
+
+.execom_card__description-name-program {
+    color:#16FF00;
+}
+
+.execom_card__description-name-editorial {
+    color:#FF0000;
+}
+
+.execom_card__description-name-creativity {
+    color:#A8FF3E;
+}
+
+.execom_card__description-name-design {
+    color:#B643CD;
+}
+
+.execom_card__description-name-sponsorship {
+    color:#FF7A5A;
+}
+
+.execom_card__description-name-membership {
+    color:#EBF400;
+}
+
+.execom_card__description-name-discipline {
+    color:#F72798;
 }
 
 .execom_card__description-department {

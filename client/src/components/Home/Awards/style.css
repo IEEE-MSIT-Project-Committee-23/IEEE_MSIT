@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.mainAward{
+  width: 100vw;
+  height: 650px;
+  background-image: url('../../../Assets/eventBack.png');
+  color: white;
+  background-attachment: fixed;
+}
+.award{
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.cardA:hover{
+  transform: scale(1.08);
+  box-shadow: 0px 0px 2px white;
+  border: 1px solid rgb(146, 234, 240);
+}
+.cardA{
+  height: 390px;
+  width: 300px;
+  text-align: center;
+  padding: 15px 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-color: black;
+  margin-left: 8px;
+  color: white;
+  transition: transform 0.5s;
+}
+.cardA svg{
+  margin-left:105px ;
+  color: white;
+}
+.cardA h3{
+  font-size: 22px;
+  margin-top: 12px;
+  color: white;
+}
+.short{
+  margin-top: 16px;
+  font-size: 14.5px;
+  letter-spacing: 1px;
+}
+.threeS{
+  margin-top: 15px;
+}
+.paraN{
+  color: white;
+}

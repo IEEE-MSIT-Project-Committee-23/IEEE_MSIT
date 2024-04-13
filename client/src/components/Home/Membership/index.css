@@ -1,0 +1,22 @@
+.membership-card {
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    transition: transform 0.3s ease;
+    /* background-color: rgba(54, 50, 45, 0.2);
+    color: white; */
+}
+
+.membership-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px skyblue;
+}
+
+.join-button {
+    transition: transform 0.3s ease;
+}
+
+.join-button:hover {
+    box-shadow: 0 0 5px skyblue;
+    transform: scale(1.05);
+}

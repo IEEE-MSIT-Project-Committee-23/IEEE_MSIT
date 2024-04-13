@@ -1,0 +1,22 @@
+.navbar-custom {
+    background-color: #223140;
+    height: 90px; 
+ 
+}
+
+.navbar-custom .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly; 
+ 
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color:whitesmoke; 
+    font-weight: 600;
+    font-style: sans-serif;
+    padding-top: 20px;
+}
+
+.navbar-custom .navbar-brand img {
+    max-height: 60px; 
+}

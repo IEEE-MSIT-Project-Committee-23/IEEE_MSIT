@@ -27,7 +27,7 @@ const RenderExecomSection = ({ list, details }) => {
                                 return (
                                     <div className={`execom_card ${execom_section}`} key={index}>
                                         <div className={`execom_card__image execom_card__image-${execom_section}`}>
-                                            <img src={execoms.image} alt="" />
+                                            <img src={`https://lh3.googleusercontent.com/d/${execoms.image}=s600`} alt="" />
                                             <div className="execom_card__image-linksContainer">
                                                 <span className="execom_card__linkIcons">
                                                     <a href={`mailto:${execoms.email}`}><AiOutlineMail className='linkIcons' title='Email' /></a>
@@ -37,11 +37,13 @@ const RenderExecomSection = ({ list, details }) => {
                                                         <a href={execoms.instagram} target="_blank" rel="noreferrer noopener"><AiOutlineInstagram className='linkIcons' title='Instagram' /></a>
                                                     </span>
                                                 )}
-                                                {(execoms.linkedin) && (
+                                                {(execoms.linkedIn) && (
                                                     <span className="execom_card__linkIcons">
-                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' /></a>
+                                                        <a href={execoms.linkedIn} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' />
+                                                        </a>
                                                     </span>
                                                 )}
+
                                                 {(execoms.resume) && (
                                                     <span className="execom_card__linkIcons">
                                                         <a href={execoms.resume} target="_blank" rel="noreferrer noopener"><AiOutlineFile className='linkIcons' title='Resume' /></a>
@@ -69,7 +71,7 @@ const RenderExecomSection = ({ list, details }) => {
                                 return (
                                     <div className={`execom_card ${execom_section}`} key={index}>
                                         <div className={`execom_card__image execom_card__image-${execom_section}`}>
-                                            <img src={execoms.image} alt="" />
+                                            <img src={`https://lh3.googleusercontent.com/d/${execoms.image}=s600`} alt="" />
                                             <div className="execom_card__image-linksContainer">
                                                 <span className="execom_card__linkIcons">
                                                     <a href={`mailto:${execoms.email}`}><AiOutlineMail className='linkIcons' title='Email' /></a>
@@ -79,11 +81,13 @@ const RenderExecomSection = ({ list, details }) => {
                                                         <a href={execoms.instagram} target="_blank" rel="noreferrer noopener"><AiOutlineInstagram className='linkIcons' title='Instagram' /></a>
                                                     </span>
                                                 )}
-                                                {(execoms.linkedin) && (
+                                                {(execoms.linkedIn) && (
                                                     <span className="execom_card__linkIcons">
-                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' /></a>
+                                                        <a href={execoms.linkedIn} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' />
+                                                        </a>
                                                     </span>
                                                 )}
+
                                                 {(execoms.resume) && (
                                                     <span className="execom_card__linkIcons">
                                                         <a href={execoms.resume} target="_blank" rel="noreferrer noopener"><AiOutlineFile className='linkIcons' title='Resume' /></a>
@@ -111,7 +115,7 @@ const RenderExecomSection = ({ list, details }) => {
                                 return (
                                     <div className={`execom_card ${execom_section}`} key={index}>
                                         <div className={`execom_card__image execom_card__image-${execom_section}`}>
-                                            <img src={execoms.image} alt="" />
+                                            <img src={`https://lh3.googleusercontent.com/d/${execoms.image}=s600`} alt="" />
                                             <div className="execom_card__image-linksContainer">
                                                 <span className="execom_card__linkIcons">
                                                     <a href={`mailto:${execoms.email}`}><AiOutlineMail className='linkIcons' title='Email' /></a>
@@ -121,11 +125,13 @@ const RenderExecomSection = ({ list, details }) => {
                                                         <a href={execoms.instagram} target="_blank" rel="noreferrer noopener"><AiOutlineInstagram className='linkIcons' title='Instagram' /></a>
                                                     </span>
                                                 )}
-                                                {(execoms.linkedin) && (
+                                                {(execoms.linkedIn) && (
                                                     <span className="execom_card__linkIcons">
-                                                        <a href={execoms.linkedin} target="_blank" rel="noreferrer noopener"><AiOutlineLinkedin className='linkIcons' title='LinkedIn' /></a>
+                                                        <a href={execoms.linkedIn} target="_blank" rel="noreferrer noopener"> <AiOutlineLinkedin className='linkIcons' title='LinkedIn' />
+                                                        </a>
                                                     </span>
                                                 )}
+
                                                 {(execoms.resume) && (
                                                     <span className="execom_card__linkIcons">
                                                         <a href={execoms.resume} target="_blank" rel="noreferrer noopener"><AiOutlineFile className='linkIcons' title='Resume' /></a>
@@ -157,12 +163,14 @@ const ExeCom = () => {
             {/* <Menubar backgroundClr="#009CA6" /> */}
             <div className="app__execom-mainContainer">
                 <div className="app__execom-headerContainer">
-                    <h1 className="app__execom-header">Meet the Execom 2023</h1>
-                    <div className="hr-header"></div>
+                <h1 className="font-extrabold text-white bg-slate-800 rounded-lg text-center p-5">
+      Meet the Execom 2023
+    </h1>
+                    <div className="hr-header"></div> 
                 </div>
                 <div className='app__execom-execomListContainer'>
                     <div className='execom_card__main'>
-                        <h2 style={{ "color": "#009CA6", "borderBottom": "2px solid #009CA6" }} className="app__execom-header">Advisory Board</h2>
+                        <h2 style={{ "color": "#009CA6", "borderBottom": "2px solid #FFFFFF", fontSize:"2.3rem" }} className="app__execom-header">Advisory Board</h2>
                         <div className='execom_card__listContainer'>
                             <div className="execom_card__wrapper">
                                 <div className="execom_card advisoryBoard">

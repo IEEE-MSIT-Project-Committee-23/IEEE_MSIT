@@ -12,7 +12,7 @@ function HomeComponent() {
                         <h1 className="text-primary homeFont">change</h1>
                         <p className="homeFont">Technical society for <strong>Engineering, Computing, </strong>and <strong>Technology Information.</strong></p>
                         <p className="text-primary homeFont">Effective networking channel</p>
-                        <p className="homeFont">While the World benefits from what's new,<strong>IEEE </strong>focuses on what's <strong>next</strong></p>
+                        <p className="homeFont">While the World benefits from what's new, <strong>IEEE </strong>focuses on what's <strong>next</strong></p>
                     </section>
                 </div>
             </header>

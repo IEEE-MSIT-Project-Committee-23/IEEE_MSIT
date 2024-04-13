@@ -21,11 +21,6 @@ const advisoryBoardList = [
         title: 'Chapter Advisor - RAS',
         image: Images.anshulPareek
     },
-    {
-        name: 'Dr. Richa Gupta',
-        title: 'AWP-PCB lab Faculty In-charge',
-        image: Images.richaGupta
-    }
 ]
 
 export default advisoryBoardList;

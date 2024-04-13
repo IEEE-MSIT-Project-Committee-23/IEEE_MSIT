@@ -1,0 +1,50 @@
+.heading{
+    color: white;
+    font: bold 50px sans-serif;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    margin: 0;
+}
+
+.page{
+    padding-bottom: 5vw;
+    background-color: #182b3a;
+    background-image: linear-gradient(90deg, #112331 0%, #268bc1 50%, #0d2231 100%);
+
+}
+
+.newsletters{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5vw;
+
+}
+
+.flipbook-container {
+    margin: 0 auto;
+  }
+  
+.intro{
+    color: rgb(168, 206, 249);
+    background-color: black;
+    font: bold 24px poppins;
+    text-align: center;
+    padding: 8vw 0;
+    display: flex;
+}
+
+.flipbook-page {
+    border: 4px solid yellow; 
+    box-sizing: border-box; 
+  }
+
+.logo{
+
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+}
